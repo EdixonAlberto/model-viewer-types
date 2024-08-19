@@ -1,0 +1,38 @@
+{
+  "name": "model-viewer-types",
+  "version": "0.1.0",
+  "description": "Una librería de definiciones de tipos para la librería @google/model-viewer",
+  "type": "module",
+  "main": "",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "format": "prettier --write ./src/**/*.{ts,d.ts}"
+  },
+  "keywords": [
+    "model-viewer",
+    "types"
+  ],
+  "author": {
+    "name": "Edixon Piña",
+    "email": "edixonalbertto@gmail.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdixonAlberto/model-viewer-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EdixonAlberto/model-viewer-types/issues"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "packageManager": "pnpm@9.7.1",
+  "engines": {
+    "node": "^20.16.0",
+    "pnpm": "^9.7.1"
+  },
+  "typeScriptVersion": "^5.5.4"
+}
