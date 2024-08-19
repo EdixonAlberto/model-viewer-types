@@ -37,7 +37,7 @@ createRoot(document.getElementById('root')!).render(
 
 Con esto logramos el siguiente autocompletado en vsCode:
 
-![preview](./preview.png)
+![preview](https://github.com/EdixonAlberto/model-viewer-types/blob/main/preview.png?raw=true)
 
 ## Licencia
 

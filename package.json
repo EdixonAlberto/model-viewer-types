@@ -1,12 +1,14 @@
 {
   "name": "model-viewer-types",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "description": "Una librería de definiciones de tipos para la librería @google/model-viewer",
   "type": "module",
   "main": "",
   "types": "src/index.d.ts",
   "scripts": {
-    "format": "prettier --write ./src/**/*.{ts,d.ts}"
+    "format": "prettier --write ./src/**/*.{ts,d.ts}",
+    "pre-publish": "pnpm format && pnpm try-publish",
+    "try-publish": "npm publish --dry-run"
   },
   "keywords": [
     "model-viewer",
