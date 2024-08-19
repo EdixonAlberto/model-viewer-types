@@ -24,7 +24,8 @@ import '@google/model-viewer' // Importar la librería de model-viewer
 import 'model-viewer-types' // Importar la librería de tipos para model-viewer
 
 function App() {
-  return <model-viewer class="my-model"></model-viewer>
+  const viewer = useRef<ModelViewerRef>(null)
+  return <model-viewer ref={viewer} class="my-model"></model-viewer>
 }
 
 createRoot(document.getElementById('root')!).render(
@@ -33,6 +34,10 @@ createRoot(document.getElementById('root')!).render(
   </StrictMode>
 )
 ```
+
+Con esto logramos el siguiente autocompletado en vsCode:
+
+![preview](./preview.png)
 
 ## Licencia
 
